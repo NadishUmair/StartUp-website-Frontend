@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Poppins:wght@300;400;600;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,700&family=Signika+Negative:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="file.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Mt Site</title>
+</head>
+<body style="font-family:  'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Signika Negative', sans-serif;" class="relative">
+   
+  <div class="relative">
+            <div class="hidden md:flex justify-between  bg-slate-900  p-3 px-8">
+
+                <div class="text-white">
+                   <i class="fa fa-map-marker ml-3"></i><span class="ml-2">123 Street, New York, USA</span>
+                    <i class="fa fa-phone ml-3"></i><span class="ml-2">+012 345 6789</span>
+                   <i class="fa fa-envelope ml-3"></i><span class="ml-2">info@example.com</span>
+                </div>
+                  <div>
+                    <i class="fa fa-twitter  border p-2 mr-2 rounded-full text-white hover:bg-white  hover:text-black duration-700 "></i>
+                    <i class="fa fa-facebook-f border p-2 px-3 mr-2 rounded-full text-white hover:bg-white hover:text-black duration-700 "></i>
+                    <i class="fa fa-linkedin border p-2 mr-2 rounded-full text-white hover:bg-white hover:text-black duration-700 "></i>
+                    <i class="fa fa-instagram border p-2 mr-2 rounded-full text-white hover:bg-white hover:text-black duration-700 "></i>
+                    <i class="fa fa-youtube-play border p-2 mr-2 rounded-full text-white hover:bg-white hover:text-black duration-700 "></i>
+                   
+                  </div>
+ 
+            </div>
+            
+            
+            <header class="">
+            <div id="backgroundimg" class="  bg-cover bg-no-repeat min-h-screen">
+            <div class="  bg-cover bg-no-repeat min-h-screen">
+              <!-- ############################## nav-bar ############################ -->
+            <nav class="">
+            <div class="flex   justify-between h-20 border-b bg-transparent ">
+              <div class="ml-2 h-full  p-2 lg:basis-1/3 md:basis-1/4 text-white ">
+                <i class="fa fa-user fa-3x mr-2"></i><span class="text-4xl font-extrabold ">Startup</span>
+              </div>
+              <div   id="onclick" class="sm:block md:hidden lg:hidden mt-4 text-right w-11 right-3 rounded-sm bg-blue-300  z-20 absolute hover:bg-slate-300  text-black">
+                <div class="lines border bg-white h-1 border-white m-2 "></div>
+                <div class="lines border bg-white h-1 border-white m-2"></div>
+                <div class="lines border bg-white h-1 border-white m-2"></div>
+               <div id="closebtn" class="cursor-pointer hidden absolute top-0 z-30 left-1 text-5xl text-white">&#9747</div>
+               
+            </div>
+              <div class="hidden md:pl-3 md:pt-4 md:block lg:pl-6 relative flex-1 text-white  text-xl  sm:hidden  ">
+                <a href="" class="inline-block h-full  hover:underline hover:text-blue-400 hover:ease-in-out hover:duration-700">Home</a>
+                <a href="" class="inline-block lg:ml-4  hover:text-blue-400 hover:ease-in-out hover:duration-700">About</a>
+                <a href="" class="inline-block lg:ml-4  hover:text-blue-400 hover:ease-in-out hover:duration-700">Services</a>
+                <div class="inline-block lg:ml-4 h-full blog hover:text-blue-400 hover:ease-in-out hover:duration-700">
+                  Blog <i class="fa fa-caret-down ml-1"></i>
+                  <div class="  bg-white text-black mt-8 w-40 z-10 absolute left-56 list-none p-6 text-base list-show">
+                    <li class="mt-2"><a href="" >Blog Grid</a></li>
+                    <li class="mt-2"><a href="" >Blog Detail</a></li>
+                  </div>
+                </div>
+               
+               <div class="inline-block pages lg:ml-4   h-full hover:text-blue-400 hover:ease-in-out hover:duration-700 link-hover"">
+                Pages <i class="fa fa-caret-down ml-1"></i>
+                <div class=" bg-white text-black mt-8 w-40 z-10 absolute left-80 list-none p-6 text-base list-show ">
+                  <li class="mt-2"><a href="">Pricing Plan</a></li>
+                  <li class="mt-2"><a href="">Our Features</a></li>
+                  <li class="mt-2"><a href="">Team Members</a></li>
+                  <li class="mt-2"><a href="">Testimonial</a></li>
+                  <li class="mt-2"><a href="">Free Qoute</a></li>
+                </div>
+               </div>
+              
+                <a href="" class="inline-block  lg:ml-4  hover:text-blue-400 hover:ease-in-out hover:duration-700">Contact</a>
+               <span class="ml-6"><i class="fa fa-search text-blue-300 cursor-pointer"></i></span> 
+                <button class="bg-blue-400 lg:ml-5 p-2 text-white font-bold text-base ">Download Pro Version</button>
+               </div>
+        </nav>
+       <div class="hidden bg-white p-2 z-30 absolute border-4 w-full" id="humburger-list">
+          
+            <li class=" border-b-2  block"><a href="">About Us</a></li>
+            <li class="  border-b-2 block "><a href="">Contact Us</a></li>
+            <li class=" border-b-2  block "><a href="">Services</a></li>
+            <li class=" border-b-2   block"><a href="">Blog</a></li>
+          
+          
+       </div>
+      
+   <!-- ##################### main ###################### -->
+    <main class="text-center mt-36 relative text-white" >
+     
+     
+     
+         <div class="main-div">
+         <h4 class="text-2xl">CREATIVE & INNOVATIVE</h4>
+       
+        <div class=" " >
+            <h1 id="animate-for-css" class="text-3xl lg:text-6xl font-extrabold  ">Creative & Innovative</h1>
+            <h1 id="animate-for-css" class="text-3xl lg:text-6xl font-extrabold ">Digital Solution</h1>
+            <button id="main-btn1" class="p-2 px-8 text-sm font-bold lg:px-12 lg:p-4  rounded-sm mt-4 lg:text-xl m-3 bg-blue-400 text-white hover:bg-blue-400 hover:ease-out hover:">Free Qoute</button>
+            <button id="main-btn2" class="p-2 px-8 text-sm font-bold lg:px-12 lg:p-4 border rounded-sm mt-4 lg:text-xl m-3 text-white border-white hover:bg-white hover:text-black hover:ease-in-out hover:duration-1000">Contact Us</button>
+            
+        </div>
+       
+        <button id="leftbutton" class="top-6 text-6xl left-0   absolute md:text-8xl md:font-extralight  font-light lg:left-20 md:top-10  text-blue-400 hover:text-white hover:duration-700 hover:ease-in-out">
+          &lt;
+        </button> 
+        <button id="rightbutton" class="top-6 text-6xl right-0 absolute  md:text-8xl  md:font-extralight font-light lg:right-20 md:top-10 text-blue-400 hover:text-white hover:duration-700 hover:ease-in-out ">
+          &gt;
+        </button>
+    
+      </div>
+    </main>
+  </header>
+  
+  <div class="ml-10 lg:margin-top1 absolute margin-top w-4/5 lg:ml-36 lg:flex   md:block md:ml-12 ">
+
+    <!--######################################## div1 ################################### -->
+    <div class=" border-white  bg-blue-400 flex-grow-1 flex basis-1/3 p-8 text-center ">
+    <div class="flex  ml-8">
+        <div class=" p-2">
+          <span class="p-6 mr-2 bg-slate-50 border " ><i class="fa fa-users  text-blue-400"></i></span>
+         </div>
+         <div class=" ">
+           <h2 class="text-base font-bold text-slate-100">Happy Clients</h2>
+           <h3 class="text-4xl font-bold text-slate-100 shownumber"></h3>
+         </div>
+         </div>
+      </div>
+  
+     <!-- ######################### div 2 ################################## -->
+      <div class=" border-white  bg-slate-100 flex-grow-1 flex basis-1/3 p-8 text-center ">
+        <div class="flex  ml-8">
+          <div class="p-2">
+            <span class="p-6 mr-2 bg-blue-400 " ><i class="fa fa-check  text-white"></i></span>
+           </div>
+           <div class=" ">
+             <h2 class="text-base font-bold text-blue-400">Projects Done</h2>
+             <h3 class="text-4xl font-bold shownumber"></h3>
+           </div>
+           </div>
+        </div>
+
+
+  <!-- ########################div 3######################### -->
+  <div class=" border-white  bg-blue-400 flex-grow-1 flex basis-1/3 p-8 text-center ">
+  <div class="flex ml-8">
+    <div class="p-2">
+      <span class="p-6 mr-2 bg-white " ><i class="fa fa-award  text-blue-400"></i></span>
+     </div>
+     <div class=" ">
+       <h2 class="text-base font-bold text-slate-100">Win Awards</h2>
+       <h3 class="text-4xl font-bold text-slate-100 shownumber"></h3>
+     </div>
+     </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+
+<!-- ################################## About #################################### -->
+<div class="px-8 mt-96 lg:mt-48 flex lg:px-20 flex-wrap-reverse mouse" id="aboutdiv">
+ <div class="lg:basis-3/5 lg:px-10 sm:w-full ">
+  <h2 class="text-base  text-blue-400 uppercase font-extrabold">About Us</h2>
+  <h1 class="text-4xl font-extrabold">The Best IT Solution With 10 Years of Experience</h1>
+<div class="w-28 border-blue-400 border-2 mt-4"></div>
+<p class="mt-8">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit.
+   Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, 
+  sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+  <div class="lg:flex lg:w-4/5 mt-4">
+    <div class="lg:w-2/4 text-xl text-slate-900 font-semibold ">
+      <h1><i class="fa fa-check text-blue-400 "></i> Award Winning</h1>
+      <h1 class="mt-3"><i class="fa fa-check  text-blue-400"></i>  24/7 Support</h1>
+    </div>
+    <div class="lg:w-2/4 text-xl text-slate-900 font-semibold ">
+      <h1><i class="fa fa-check  text-blue-400"></i> Professional Staff</h1>
+      <h1 class="mt-3"><i class="fa fa-check  text-blue-400"></i> Fair Prices</h1>
+    </div>
+  </div>
+<div>
+  <div class="mt-6 flex">
+    <div class="p-4">
+      <span class="p-4 px-5 bg-blue-400"><i class="fa fa-phone text-white"></i></span>
+    </div>
+    <div class="ml-4 ">
+      <h2 class="text-xl font-semibold">Call to ask any question</h2>
+      <h1 class="text-blue-400 font-bold">+012 345 6789</h1>
+    </div>
+    
+  </div>
+</div>
+<button class="bg-blue-400 px-12 py-4 text-white mt-5" id="requestbtn">Request A quote</button>
+ </div>
+
+ <div class="lg:basis-2/5">
+<img src="./images/about-img.jpg" alt="">
+ </div>
+</div>
+ 
+<!-- ############################## Choose Us ############################ -->
+<div class="p-8 mt-20 lg:p-16 mouse">
+  <div class="text-center">
+    <h2 class="text-blue-400 font-bold text-xl">WHY CHOOSE US</h2>
+    <h2 class="text-4xl font-bold mt-4">We Are Here to Grow Your <br> Business Exponentially</h2>
+    <span class="inline-block w-28 border-blue-400 border-2 mt-4 "></span>
+    
+  </div>
+
+<div class="lg:flex flex-wrap mt-10 justify-between">
+    <div class="basis-1/3 px-6" >
+  <div class="mt-4">
+    <span class="p-4 px-5 bg-blue-400"><i class="	fa fa-cubes text-white">	</i></span>
+    <h3 class="mt-8 text-2xl font-semibold">Best In Industry</h3>
+    <p class="text-gray-500">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+  </div>
+  <div class="mt-12">
+    <span class="p-4 px-5 bg-blue-400"><i class="fa fa-award text-white"></i></span>
+    <h3 class="mt-8 text-2xl font-semibold">Award Winning</h3>
+    <p class="text-gray-500">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+  </div>
+    </div>
+    <div class="basis-1/3 ">
+      <img src="./images/feature.jpg" alt="" class="bg-cover">
+    </div>
+    <div class=" basis-1/3 px-6">
+      <div class="mt-8 lg:mt-4">
+        <span class="p-4 px-5 bg-blue-400"><i class="fa fa-user-cog text-white"></i></span>
+        <h3 class="mt-8 text-2xl font-semibold">Professional Staff</h3>
+        <p class="text-gray-500">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+      </div>
+      <div class="mt-12">
+        <span class="p-4 px-5 bg-blue-400"><i class="fa fa-phone text-white"></i></span>
+        <h3 class="mt-8 text-2xl font-semibold">24/7 Support</h3>
+        <p class="text-gray-500">Magna sea eos sit dolor, ipsum amet lorem diam dolor eos et diam dolor</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ################################ Our Services ################################ -->
+
+<div class="p-8 mt-16 lg:p-16 mouse">
+  <div class="text-center">
+    <h2 class="text-blue-400 font-bold text-2xl">OUR SERVICES</h2>
+    <h2 class="text-4xl font-bold mt-4">Custom IT Solutions for Your <br> Successful Business</h2>
+    <span class="inline-block border-blue-400  border-2 w-28  mt-4 "></span>
+    </div>
+  
+
+    <div class=" mt-10">
+      <div class="block gap-12 lg:grid lg:grid-cols-3  lg:gap-12 " id="showhere">
+         <div  class="group basis-1/4 py-10 px-9 bg-blue-50 text-center  relative  shadowdiv ">
+           <span class="inline-block p-6 px-7 bg-blue-400 transform rotate-45 "><i class="transform -rotate-45 	fa fa-shield-alt text-white"></i></span>
+           <h2 class="text-2xl font-bold mt-7">Cyber Security</h2>
+             <p class="mt-3">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+             <span  class="absolute mt-6 left-36 p-2  px-4 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-in-out bg-blue-400 text-white"><a href=""><i class="fas fa-arrow-right "></i></a></span>
+            </div>
+         <div  class="group lg:basis-1/4 lg:py-10  px-9 bg-blue-50 text-center lg:mt-0 mt-16 py-12 relative shadowdiv">
+          <span class="inline-block p-6 px-7 bg-blue-400 transform rotate-45 "><i class="transform -rotate-45 	fa fa-pie-chart text-white"></i></span>
+          <h2 class="text-2xl font-bold mt-6">Data Analytics</h2>
+          <p class="mt-3">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+          <span  class="btn absolute mt-6 left-36 p-2 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-in-out px-4 bg-blue-400 text-white"><a href=""><i class="fas fa-arrow-right "></i></a></span>
+        </div>
+      <div class="group basis-1/4 lg:py-10 px-9 bg-blue-50 text-center lg:mt-0 mt-16 py-12 relative shadowdiv">
+        <span class="inline-block p-6 px-7 bg-blue-400 transform rotate-45 "><i class="transform -rotate-45 	fas fa-code text-white"></i></span>
+        <h2  class="text-2xl font-bold mt-6" >Web Development</h2>
+        <p class="mt-3">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+        <span  class=" absolute mt-6 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-in-out  left-36 p-2  px-4 bg-blue-400 text-white"><a href=""><i class="fas fa-arrow-right "></i></a></span>
+      </div>
+    <div id="forclone" class="group basis-1/4 lg:py-10 px-9 bg-blue-50 text-center lg:mt-0 mt-16 py-12 relative shadowdiv">
+      <span class="inline-block p-6 px-7 bg-blue-400 transform rotate-45 "><i class="transform -rotate-45 fa fa-android  text-white"></i></span>
+      <h2 class="text-2xl font-bold mt-6">Apps Development</h2>
+      <p class="mt-3">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+      <span  class=" absolute mt-6 left-36 p-2  px-4 bg-blue-400 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-in-out"><a href=""><i class="fas fa-arrow-right "></i></a></span>
+    </div>
+  <div class="group basis-1/4 lg:py-10 px-9 bg-blue-50 text-center lg:mt-0 mt-16 py-12 relative shadowdiv">
+    <span class="inline-block p-6 px-7 bg-blue-400 transform rotate-45 "><i class="transform -rotate-45 fa fa-search  text-white"></i></span>
+    <h2 class="text-2xl font-bold mt-6">SEO Optimization</h2>
+    <p class="mt-3">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+    <span class=" absolute mt-6 left-36 p-2  px-4 bg-blue-400 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-in-out text-white"><a href=""><i class="fas fa-arrow-right "></i></a></span>
+  </div>
+<div class="basiss-1/4 lg:py-10 px-9 bg-blue-400 text-white text-center lg:mt-0 mt-16 py-12 shadowdiv">
+
+  <h2 class="text-2xl font-bold mt-6">Call Us For Quote</h2>
+  <p class="mt-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
+  <h3 class="mt-6 text-3xl font-bold">+012 345 6789</h3>
+</div>
+ </div>
+</div>
+  </div>
+
+   <!-- ############################ Pricing Plan ################################ -->
+   <div class="p-8 mt-16 lg:p-16 mouse">
+    <div class="text-center">
+      <h2 class="text-blue-400 font-bold text-2xl">PRICING PLANS</h2>
+      <h2 class="text-4xl font-bold mt-4">We are Offering Competitive <br> Prices for Our Clients</h2>
+      <span class="inline-block border-blue-400  border-2 w-28  mt-4 "></span>
+      </div>
+   
+ <div class="lg:flex tflex-wrap mt-8">
+       <div class="bg-blue-50 basis-1/3 ">
+        <div class="px-10 py-4 border-b  border-black">
+          <h3 class="text-blue-400 text-2xl font-bold">Basic Plan</h3>
+          <h4 class="mt-2 text-sm text-gray-500">FOR SMALL SIZE BUSINESS</h4>
+        </div >
+        <div class="px-10 py-8">
+          <h1 class="text-5xl font-bold"><sup class="text-2xl font-medium">$</sup>49.00<span class="text-lg">/ Month</span></h1></h1>
+          <ul>
+            <li class="flex justify-between mt-4 text-lg font-light">HTML5 & CSS3 <i class="fa fa-check text-blue-400""></i></li>
+            <li class="flex justify-between mt-4 text-lg font-light">Bootstrap v5 <i class="fa fa-check text-blue-400""></i></li>
+            <li class="flex justify-between mt-4 text-lg font-light">Responsive Layout <i class="fa fa-close text-red-500"></i></li>
+            <li class="flex justify-between mt-4 text-lg font-light">Cross-browser Support <i class="fa fa-close text-red-500"></i></li>
+          </ul>
+          <button class="mt-4 bg-blue-400 text-base text-white w-28 p-1">Order Now</button>
+        </div>
+       </div>
+       <div class="bg-white basis-1/3 drop-shadow-xl">
+        <div class="px-10 py-4 border-b  border-black">
+          <h3 class="text-blue-400 text-2xl font-bold">Standard Plan</h3>
+          <h4 class="mt-2 text-sm text-gray-500">FOR SMALL SIZE BUSINESS</h4>
+        </div>
+        <div class="px-10 py-8">
+          <h1 class="text-5xl font-bold"><sup class="text-2xl font-medium">$</sup>99.00 <span class="text-lg">/ Month</span></h1>
+          <ul>
+            <li class="flex justify-between mt-4 text-lg font-light">HTML5 & CSS3 <i class="fa fa-check text-blue-400""></i></li>
+            <li class="flex justify-between mt-4 text-lg font-light">Bootstrap v5 <i class="fa fa-check text-blue-400""></i></li>
+    <li class="flex justify-between mt-4 text-lg font-light">Responsive Layout <i class="fa fa-check text-blue-400"></i></li>
+            <li class="flex justify-between mt-4 text-lg font-light">Cross-browser Support <i class="fa fa-close text-red-500"></i></li>
+          </ul>
+          <button class="mt-4 bg-blue-400 text-base text-white w-28 p-1">Order Now</button>
+        </div>
+       </div>
+       <div class="bg-blue-50 basis-1/3 ">
+        <div class="px-10 py-4 border-b  border-black">
+          <h3 class="text-blue-400 text-2xl font-bold">Advanced Plan</h3>
+          <h4 class="mt-2 text-sm text-gray-500">FOR SMALL SIZE BUSINESS</h4>
+        </div>
+        <div class="px-10 py-8">
+          <h1 class="text-5xl font-bold"><sup class="text-2xl font-medium">$</sup>149.00<span class="text-lg">/ Month</span></h1></h1>
+          <ul>
+            <li class="flex justify-between mt-4 text-lg font-light">HTML5 & CSS3 <i class="fa fa-check text-blue-400""></i></li>
+            <li class="flex justify-between mt-4 text-lg font-light">Bootstrap v5 <i class="fa fa-check text-blue-400""></i></li>
+            <li class="flex justify-between mt-4 text-lg font-light">Responsive Layout <i class="fa fa-check text-blue-400""></i></li>
+            <li class="flex justify-between mt-4 text-lg font-light">Cross-browser Support <i class="fa fa-check text-blue-400""></i></li>
+          </ul>
+          <button class="mt-4 bg-blue-400 text-base text-white w-28 p-1">Order Now</button>
+        </div>
+       </div>
+ </div>
+</div>
+
+
+ <!-- ##################### Request a quote ##################### -->
+ <div class="p-10 mt-16 lg:p-16 lg:flex flex-wrap mouse">
+
+<div class=" basis-3/5 px-5 ">
+  <div class="">
+    <h2 class="text-blue-400 font-bold text-2xl">REQUEST A QUOTE</h2>
+    <h2 class="text-5xl font-bold mt-4">Need A Free Quote? Please Feel Free to Contact Us</h2>
+    <span class="inline-block border-blue-400  border-2 w-28  mt-4 "></span>
+    </div>
+
+<div class="flex justify-between w-4/5 mt-8">
+  <div><i class="fa fa-reply text-xl text-blue-400 mr-2"></i><span class="text-xl text-gray-700">Reply within 24 hours</span></div>
+  <div><i class="fa fa-phone text-xl text-blue-400 mr-2"></i><span class="text-xl text-gray-700">24 hrs telephone support</span></div>
+</div>
+<p class="mt-6 text-gray-500">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
+<div class="mt-8 flex ">
+  <div class="">
+    <div class=" w-full h-full p-4  px-5 bg-blue-400"><i class="fa fa-phone text-white"></i></div>
+  </div>
+  <div class="ml-4 ">
+    <h2 class="text-xl font-base">Call to ask any question</h2>
+    <h1 class="text-blue-400 font-bold text-2xl">+012 345 6789</h1>
+  </div>
+</div>
+
+</div>
+
+<div class="bg-blue-400 basis-2/5 p-5 px-10 lg:mt-0 mt-8">
+  <form action="" class="text-gray-500">
+    <input type="text" placeholder="Your Name" class="block bg-slate-100   mt-4 p-3 w-full">
+    <input type="email" placeholder="Your Email" class="block bg-slate-100   mt-4 p-3 w-full">
+  <select name="" id="" class="block border  mt-4 p-3 w-full">
+    <option value="" selected disabled >Select A Service</option>
+    <option value="">Service 1</option>
+    <option value="">Service 2</option>
+    <option value="">Service 3</option>
+  </select>
+  <textarea name="" id="" cols="2" rows="3" placeholder="Message" class="bg-slate-100 border p-3  mt-4 w-full"></textarea>
+  <button class="bg-blue-900 px-12 py-4 text-white mt-5 w-full">Request A quote</button>
+  </form>
+ </div>
+</div>
+ </div>
+
+ <!-- ##################### Testimonial ###################### -->
+ <div class="p-8 mt-16 lg:p-16 ">
+  <div class="text-center">
+    <h2 class="text-blue-400 font-bold text-2xl uppercase">Testimonial</h2>
+    <h2 class="text-4xl font-bold mt-4">What Our Clients Say About <br> Our Digital Services</h2>
+    <span class="inline-block border-blue-400  border-2 w-28  mt-4 "></span>
+    </div>
+    <div>
+  <div class="relative overflow-hidden">
+    <div class="flex " id="row">
+      
+    <!-- ############ Testimonial 1 ################ -->
+      <div class="card bg-blue-50  flex-shrink-0 lg:w-1/3 w-36 box">
+        <div class="flex border-b border-black px-0 py-0 lg:px-12 lg:py-8  lg:w-full ">
+        <div>
+          <img src="/images/testimonial-1.jpg" alt="">
+        </div>
+        <div class="lg:ml-4">
+          <h4 class="text-blue-400 font-bold text-xl">Client Name</h4>
+          <h6>Profession</h6>
+        </div>
+      </div>
+      
+      <div class="mt-4 lg:px-12  lg:py-8">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dignissimos doloremque dolores </p>
+      </div>
+    </div>
+ 
+     <!-- ############ Testimonial 2 ################ -->
+    <div  class="card bg-white  flex-shrink-0 lg:w-1/3  box">
+      <div class="flex  border-b border-black px-12 py-8">
+        <div>
+          <img src="/images/testimonial-2.jpg" alt="">
+        </div>
+        <div class="ml-4 ">
+          <h4 class="text-blue-400 font-bold text-xl">Client Name</h4>
+          <h6>Profession</h6>
+        </div>
+      </div>
+      <div class="mt-4 px-12 py-8">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dignissimos doloremque dolores <p>
+      </div>
+    </div>
+
+     <!-- ############ Testimonial 3 ################ -->
+    <div class="card bg-blue-50  flex-shrink-0 lg:w-1/3 box">
+      <div class="flex border-b border-black px-12 py-8">
+        <div>
+          <img src="/images/testimonial-3.jpg" alt="">
+        </div>
+        <div class="ml-4  ">
+          <h4 class="text-blue-400 font-bold text-xl">Client Name</h4>
+          <h6>Profession</h6>
+        </div>
+      </div>
+      <div class="mt-4 px-12 py-8">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dignissimos doloremque dolores </p>
+      </div>
+    </div>
+
+     <!-- ############ Testimonial 4 ################ -->
+    <div class="card bg-white flex-shrink-0 lg:w-1/3 box">
+      <div class="flex  border-b border-black px-12 py-8">
+        <div><img src="/images/testimonial-4.jpg" alt=""></div>
+        <div class="ml-4">
+          <h4 class="text-blue-400 font-bold text-xl">Client Name</h4>
+          <h6>Profession</h6>
+        </div>
+      </div>
+      <div class="mt-4 px-12 py-8">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae dignissimos doloremque dolores </p>
+      </div>
+    </div> 
+
+  </div>
+  <div class="text-center mt-8">
+    <span class="btnind border bordr-2 border-black m-2 inline-block h-2 w-2 bg-black rounded-lg"></span>
+    <span class="btnind border bordr-2 border-black m-2 inline-block h-2 w-2 bg-black rounded-lg"></span>
+    <span class="btnind border bordr-2 border-black m-2 inline-block h-2 w-2 bg-black rounded-lg"></span>
+    <span class="btnind border bordr-2 border-black m-2 inline-block h-2 w-2 bg-black rounded-lg"></span>
+  </div>
+  </div>
+</div>
+  
+
+
+<!-- ################################# Team Members ####################################### -->
+<div class=" mt-16 mouse">
+  <div class="text-center">
+    <h2 class="text-blue-400 font-bold text-2xl uppercase">TEAM MEMBERS</h2>
+    <h2 class="text-4xl font-bold mt-4">Professional Stuffs Ready to <br> Help Your Business</h2>
+    <span class="inline-block border-blue-400  border-2 w-28  mt-4 "></span>
+    </div>
+
+
+    <div class="lg:flex justify-between gap-10 mt-12  w-full">
+      <!-- employee 1 -->
+      <div class="basis-1/3 mt-8 lg:mt-0  h-full shadowdiv">
+        <div class="h-4/5 relative img-container ">
+          <img src="/images/employee1.webp" alt="" class="h-full lg:w-full ">
+          <div class=" absolute top-0 px-12 py-28 text-white w-full h-full img-content">
+            <div class="">
+              <span class="bg-blue-400 p-4"><i class="fa fa-twitter"></i></span>
+              <span class="bg-blue-400 p-4"><i class="fa fa-facebook"></i></span>
+              <span class="bg-blue-400 p-4"><i class="fa fa-instagram"></i></span>
+              <span class="bg-blue-400 p-4"><i class="fa fa-linkedin"></i></span>
+            </div> 
+          </div>
+        </div>
+        <div class="text-center py-8 bg-blue-100">
+          <h2 class="text-blue-400 text-2xl font-bold">Full Name</h2>
+          <p class="uppercase font-light">Designation</p>
+        </div>
+      </div>
+      <!-- employee 2 -->
+      <div class="basis-2/6 mt-8 lg:mt-0 h-full shadowdiv">
+        <div class="h-4/5 relative img-container ">
+          <img src="/images/employee1.jpg" alt="" class="h-full w-full ">
+          <div class="absolute top-0 px-12 py-28 text-white w-full h-full img-content ">
+            <div class="">
+              <span class="bg-blue-400 p-4"><i class="fa fa-twitter"></i></span>
+              <span class="bg-blue-400 p-4"><i class="fa fa-facebook"></i></span>
+              <span class="bg-blue-400 p-4"><i class="fa fa-instagram"></i></span>
+              <span class="bg-blue-400 p-4"><i class="fa fa-linkedin"></i></span>
+            </div> 
+          </div>
+        </div>
+        
+     
+        <div class="text-center py-8 bg-blue-100">
+          <h2 class="text-blue-400 text-2xl font-bold">Full Name</h2>
+          <p class="uppercase font-light">Designation</p>
+        </div>
+      </div>
+      <!-- employee 3 -->
+      <div class="basis-2/6   mt-8 lg:mt-0  h-full shadowdiv">
+        <div class="h-4/5 relative img-container ">
+          <img src="/images/employee3.webp" alt="" class="h-full w-full ">
+          <div class="absolute top-0 px-12 py-28 text-white w-full h-full img-content ">
+            <div class="">
+              <span class="bg-blue-400 p-4"><i class="fa fa-twitter"></i></span>
+              <span class="bg-blue-400 p-4"><i class="fa fa-facebook"></i></span>
+              <span class="bg-blue-400 p-4"><i class="fa fa-instagram"></i></span>
+              <span class="bg-blue-400 p-4"><i class="fa fa-linkedin"></i></span>
+            </div> 
+          </div>
+        </div>
+          <div class="text-center py-8 bg-blue-100">
+            <h2 class="text-blue-400 text-2xl font-bold">Full Name</h2>
+            <p class="uppercase font-light">Desigination</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- ###################### latest Blog ##################### -->
+  <div class=" mt-16 mouse">
+    <div class="text-center">
+      <h2 class="text-blue-400 font-bold text-2xl">LATEST BLOG</h2>
+      <h2 class="text-4xl font-bold mt-4">Read The Latest Articles from <br> Our Blog Post</h2>
+      <span class="inline-block border-blue-400  border-2 w-28  mt-4 "></span>
+      </div>
+
+      <!-- blogs -->
+     <div class="lg:flex justify-between gap-10 mt-8  w-full">
+      <!-- blog 1 -->
+      <div class="basis-1/3 mt-8 lg:mt-0 h-full shadowdiv">
+        <div class="h-4/5 relative  ">
+          <img src="/images/blog-1.jpg" alt="" class="h-full lg:w-full ">
+          <div class=" absolute top-0  py-28 text-white w-full h-full">
+            <div class="">
+              <span class="bg-blue-400 p-4"><button>Web Design</button></span>
+            
+            </div> 
+          </div>
+        </div>
+        <div class=" py-6 px-4 bg-blue-100">
+          <span class=""><i class="far fa-user mr-2 text-blue-400"></i>John Doe</span>
+          <span class="ml-4"><i class="far fa-calendar mr-2 text-blue-400"></i>01 Jan,2030</span>
+          <h2 class=" text-2xl font-semibold mt-3">How to build a website</h2>
+          <p class="uppercase font-light mt-3">Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+        <a href="" class="inline-block mt-3 text-blue-400 text-light">READ MORE<i class="fas fa-arrow-right ml-2 "></i></a>
+        </div>
+      </div>
+      <!-- blog 2 -->
+      <div class="basis-1/3 mt-8 lg:mt-0 h-full shadowdiv">
+        <div class="h-4/5 relative ">
+          <img src="/images/blog-2.jpg" alt="" class="h-full lg:w-full ">
+          <div class=" absolute top-0 border py-28 text-white w-full h-full">
+            <div class="">
+              <span class="bg-blue-400 p-4"><button>Web Design</button></span>
+             </div> 
+          </div>
+        </div>
+        
+          <div class=" py-6 px-4 bg-blue-100">
+            <span class=""><i class="far fa-user mr-2 text-blue-400"></i>John Doe</span>
+            <span class="ml-4"><i class="far fa-calendar mr-2 text-blue-400"></i>01 Jan,2030</span>
+            <h2 class=" text-2xl font-semibold mt-3">How to build a website</h2>
+            <p class="uppercase font-light mt-3">Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+          <a href="" class="inline-block mt-3 text-blue-400 text-light">READ MORE<i class="fas fa-arrow-right ml-2 "></i></a>
+          </div>
+    
+      </div>
+      <!-- blog 3 -->
+      <div class="basis-1/3 mt-8 lg:mt-0  h-full shadowdiv">
+        <div class="h-4/5 relative  ">
+          <img src="/images/blog-3.jpg" alt="" class="h-full lg:w-full ">
+          <div class=" absolute top-0  py-28 text-white w-full h-full">
+            <div class="">
+              <span class="bg-blue-400 p-4"><button>Web Design</button></span>
+            
+            </div> 
+          </div>
+        </div>
+        <div class=" py-6 px-4 bg-blue-100">
+          <span class=""><i class="far fa-user mr-2 text-blue-400"></i>John Doe</span>
+          <span class="ml-4"><i class="far fa-calendar mr-2 text-blue-400"></i>01 Jan,2030</span>
+          <h2 class=" text-2xl font-semibold mt-3">How to build a website</h2>
+          <p class="uppercase font-light mt-3">Dolor et eos labore stet justo sed est sed sed sed dolor stet amet</p>
+        <a href="" class="inline-block mt-3 text-blue-400 text-light">READ MORE<i class="fas fa-arrow-right ml-2 "></i></a>
+        </div>
+      </div>
+ </div>
+</div>
+
+<div class="mt-40 text-center">
+  
+<div class="flex overflow-hidden slider justify-between lg:ml-72  lg:w-1/2  h-24" id="contracts">
+
+ <div class="shrink-0  slide companies ">
+  <img src="/images/vendor-1.jpg" alt="" class="" >
+</div>
+
+<div class=" shrink-0 slide  companies">
+  <img src="/images/vendor-2.jpg" alt="">
+</div>
+
+<div class="shrink-0 slide companies">
+  <img src="/images/vendor-4.jpg" alt="">
+</div>
+
+<div class="shrink-0 slide companies">
+  <img src="/images/vendor-5.jpg" alt="">
+</div>
+
+<div class="shrink-0 slide companies">
+  <img src="/images/vendor-6.jpg" alt="">
+</div>
+
+<div class="shrink-0 slide companies">
+  <img src="/images/vendor-7.jpg" alt="">
+</div>
+
+<div class="shrink-0 slide companies">
+  <img src="/images/vendor-8.jpg" alt="">
+</div>
+
+<div class="shrink-0 slide companies">
+  <img src="/images/vendor-9.jpg" alt="">
+</div>
+</div>
+</div>
+</div>
+<!-- ##################### footer ##################### -->
+<footer class="mt-20 ">
+  <div class="   ">
+    <div class=" relative bg-blue-900  p-14 lg:flex justify-end text-white  ">
+      <div class="basis-1/5 mr-6 mt-96 lg:mt-0">
+        <h1 class="text-2xl">Get In Touch</h1> 
+        <span class="inline-block border-blue-400  border-2 w-28  mt-4 "></span>
+        <span class="block mt-2"><i class="fa fa-locater mr-3 text-blue-400"></i>123 Street, New York, USA</span>
+        <span class="block mt-2"><i class="fa fa-phone mr-3 text-blue-400"></i>info@example.com</span>
+        <span class="block mt-2"><i class="fa fa-phone mr-3 text-blue-400"></i>+012 345 67890</span>
+       <div class="mt-8">
+        <span class="bg-blue-400 p-4"><i class="fa fa-twitter text-white"></i></span>
+        <span class="bg-blue-400 p-4"><i class="fa fa-facebook text-white"></i></span>
+        <span class="bg-blue-400 p-4"><i class="fa fa-instagram text-white"></i></span>
+        <span class="bg-blue-400 p-4"><i class="fa fa-linkedin text-white"></i></span>
+       </div>
+      </div>
+
+      <!-- Quik links -->
+       <div class="basis-1/5 mt-7 lg:mt-0 w-full">
+        <h1 class="text-2xl">Quik links</h1>
+        <span class="inline-block border-blue-400  border-2 w-28  mt-4 "></span>
+        <span class="block mt-2"><i class="fa fa-arrow-right mr-3 text-blue-400"></i><a href="">Home</a></span>
+        <span class="block mt-2"><i class="fa fa-arrow-right mr-3 text-blue-400"></i><a href="">About Us</a></span>
+        <span class="block mt-2"><i class="fa fa-arrow-right mr-3 text-blue-400"></i><a href="">Our Services</a></span>
+        <span class="block mt-2"><i class="fa fa-arrow-right mr-3 text-blue-400"></i><a href="">Meet the Team</a></span>
+        <span class="block mt-2"><i class="fa fa-arrow-right mr-3 text-blue-400"></i><a href="">Latest Blog</a></span>
+        <span class="block mt-2"><i class="fa fa-arrow-right mr-3 text-blue-400"></i><a href="">Contact Us</a></span>
+       </div>
+       <div class="basis-1/5 ">
+        <h1 class="text-2xl">Quik links</h1>
+        <span class="inline-block border-blue-400  border-2 w-28  mt-4 "></span>
+        <span class="block mt-2"><i class="fa fa-arrow-right mr-3 text-blue-400"></i><a href="">Home</a></span>
+        <span class="block mt-2"><i class="fa fa-arrow-right mr-3 text-blue-400"></i><a href="">About Us</a></span>
+        <span class="block mt-2"><i class="fa fa-arrow-right mr-3 text-blue-400"></i><a href="">Our Services</a></span>
+        <span class="block mt-2"><i class="fa fa-arrow-right mr-3 text-blue-400"></i><a href="">Meet the Team</a></span>
+        <span class="block mt-2"><i class="fa fa-arrow-right mr-3 text-blue-400"></i><a href="">Latest Blog</a></span>
+        <span class="block mt-2"><i class="fa fa-arrow-right mr-3 text-blue-400"></i><a href="">Contact Us</a></span>
+       </div>
+     
+      <div class="bg-blue-400 lg:w-3/12 absolute top-0 px-4 left-4 right-4 lg:left-12 py-16 text-center">
+        <h1 class="text-4xl text-white font-extrabold"><i class="fa fa-user fa-2x mr-1"></i>STARTUP</h1>
+        <p class="text-white mt-8">Lorem diam sit erat dolor elitr et, diam lorem justo amet clita stet eos sit. Elitr dolor duo lorem, elitr clita ipsum sea. Diam amet erat lorem stet eos. Diam amet et kasd eos duo</p>
+        <div class="mt-8">
+        <input type="Email" placeholder="Your Email" class="w-2/3 p-2">
+        <span class="bg-blue-950 p-2 text-white"><button class="">Sign Up</button></span>
+        </div>
+       </div>
+      </div>
+  
+ <div>
+
+  
+ </div>
+ <div class="justify-end flex bg-blue-950 text-white p-5">
+  <p class="mr-28">&copy;Your Site Name. All Rights Reserved. Designed by HTML Codex Distributed By:</p>
+</div>
+
+  </div>
+</footer>
+<button class="fixed bg-blue-400 text-white z-40 top-3/4 right-0 right-9 p-2" id="topbtn"><span class="text-4xl">&uarr;</span></button>
+ 
+
+</body>
+</html>
